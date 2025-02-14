@@ -27,6 +27,7 @@ This **Sorting Algorithm Visualizer** is built using **HTML, CSS, and JavaScript
 │   ├── 🌐 favicon.ico      # Favicon for the website
 │   ├── 🖼️ logo.png        # Logo image
 ├── 📄 index.html          # Main HTML file
+```
 
 ## 🎨 Color Theme
 The visualizer uses different colors to represent various states of the bars during sorting:
