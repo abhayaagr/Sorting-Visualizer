@@ -10,20 +10,21 @@ This **Sorting Algorithm Visualizer** is built using **HTML, CSS, and JavaScript
 - **Custom Favicon**: Includes a favicon to enhance the website's appearance.
 
 ## 📂 Project Structure
-📦 Sorting-Visualizer ├── 
-   📂 css # Contains all CSS files for styling 
-      🎨 style.css # Main CSS file  
-   📂 js # Contains JavaScript files for sorting algorithms  
-      🔵 bubbleSort.js # Bubble Sort logic 
-      🟢 selectionSort.js # Selection Sort logic  
-      🔴 insertionSort.js # Insertion Sort logic 
-      🟣 quickSort.js # Quick Sort logic 
-      🟡 mergeSort.js # Merge Sort logic  
-      ⚙️ main.js # Controls UI interactions  
-      ⚙️ vizualization.js # Controls vizualization of changes
-   📂 media # Contains images, icons, or other assets 
-      🌐 favicon.ico # Favicon for the website
-   📄 index.html # Main HTML file 
+📦 Sorting-Visualizer/
+├── 📂 css/                 # Contains all CSS files for styling
+│   ├── 🎨 style.css        # Main CSS file
+├── 📂 js/                  # Contains JavaScript files for sorting algorithms
+│   ├── 🔵 bubbleSort.js    # Bubble Sort logic
+│   ├── 🟢 selectionSort.js # Selection Sort logic
+│   ├── 🔴 insertionSort.js # Insertion Sort logic
+│   ├── 🟣 quickSort.js     # Quick Sort logic
+│   ├── 🟡 mergeSort.js     # Merge Sort logic
+│   ├── ⚙️ main.js          # Controls UI interactions
+│   ├── ⚙️ visualization.js # Controls visualization of changes
+├── 📂 media/               # Contains images, icons, and other assets
+│   ├── 🌐 favicon.ico      # Favicon for the website
+│   ├── 🖼️ logo.png         # Logo image
+├── 📄 index.html           # Main HTML file
 
 ## 🎨 Color Theme
 The visualizer uses different colors to represent various states of the bars during sorting:
