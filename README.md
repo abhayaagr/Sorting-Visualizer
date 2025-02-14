@@ -11,17 +11,17 @@ This **Sorting Algorithm Visualizer** is built using **HTML, CSS, and JavaScript
 
 ## 📂 Project Structure
 📦 Sorting-Visualizer ├── 
-   📂 css # Contains all CSS files for styling │ ├── 
-      🎨 style.css # Main CSS file │ 
-   📂 js # Contains JavaScript files for sorting algorithms │ ├── 
-      🔵 bubbleSort.js # Bubble Sort logic │ ├── 
-      🟢 selectionSort.js # Selection Sort logic │ ├── 
-      🔴 insertionSort.js # Insertion Sort logic │ ├── 
-      🟣 quickSort.js # Quick Sort logic │ ├── 
-      🟡 mergeSort.js # Merge Sort logic │ ├── 
-      ⚙️ main.js # Controls UI interactions ├── 
+   📂 css # Contains all CSS files for styling 
+      🎨 style.css # Main CSS file  
+   📂 js # Contains JavaScript files for sorting algorithms  
+      🔵 bubbleSort.js # Bubble Sort logic 
+      🟢 selectionSort.js # Selection Sort logic  
+      🔴 insertionSort.js # Insertion Sort logic 
+      🟣 quickSort.js # Quick Sort logic 
+      🟡 mergeSort.js # Merge Sort logic  
+      ⚙️ main.js # Controls UI interactions  
       ⚙️ vizualization.js # Controls vizualization of changes
-   📂 media # Contains images, icons, or other assets | ├── 
+   📂 media # Contains images, icons, or other assets 
       🌐 favicon.ico # Favicon for the website
    📄 index.html # Main HTML file 
 
