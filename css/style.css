@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100vw;
+    height: 28vh;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 9vh;
+    height: 10vh;
+}
+
+.nav-bar{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 80%;
+}
+
+.slider{
+    width: 12vw;
+    height: 7vh;
+    font-size: 1.2vw;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-top: 1.5vh;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.btn{
+    color: white;
+    font-size: 1.2vw;
+    width: 14vw;
+    height: 7vh;
+    background-color: rgb(46, 46, 46);    
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 70vh;
+    width: 70vw;
+}
+
+.default-Bar{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0.1%;
+    background-color: black;
+    color: white;
+}
+
+.focus-Bar{
+    background-color: #00FFFF;
+}
+
+.error-Bar{
+    background-color: #DC143C;
+}
+
+.modify-Bar{
+    background-color: #FFB300;
+}
+
+.sorted-Bar{
+    background-color: white;
+    color: black;
+}

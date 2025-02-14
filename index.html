@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="media/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+    <h1>Sorting Visualizer</h1>
+    <div class="nav-bar">
+        <div class="size slider">
+            <pre>Size of Array : </pre>
+            <input id="ip_size" type="range" min=20 max=150 step=1 value=80>
+        </div>
+        <div class="speed slider">
+            <p>Speed : </p>
+            <input id="ip_speed" type="range" min=1 max=5 step=1 value=3>
+        </div>
+        <div class="algo">
+            <select id="algos" class="btn">
+                <option value="bubble">Bubble Sort</option>
+                <option value="insertion">Insertion Sort</option>
+                <option value="selection">Selection Sort</option>
+                <option value="quick">Quick Sort</option>
+                <option value="merge">Merge Sort</option>
+            </select>
+        </div>
+        <button class="btn reset">Reset Array</button>
+        <button class="btn sort">Sort</button>
+    </div>
+    </header>
+    <div class="box"></div>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/visualization.js"></script>
+
+    <script src="scripts/bubbleSort.js"></script>
+    <script src="scripts/insertionSort.js"></script>
+    <script src="scripts/selectionSort.js"></script>
+    <script src="scripts/quickSort.js"></script>
+    <script src="scripts/mergeSort.js"></script>
+</body>
+</html>
