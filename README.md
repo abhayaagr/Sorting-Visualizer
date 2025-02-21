@@ -1,6 +1,6 @@
 # Sorting Algorithm Visualizer
 
-This **Sorting Algorithm Visualizer** is built using **HTML, CSS, and JavaScript** to provide an interactive way to understand sorting algorithms. It visually represents different sorting techniques, allowing users to observe how elements are compared, swapped, and sorted step by step.
+This **Sorting Algorithm Visualizer** is built using **HTML, CSS, and JavaScript** to provide an interactive way to understand sorting algorithms. It visually represents different sorting techniques, allowing users to observe how elements are compared, swapped, and sorted step by step.<br />
 Checkout the live demo : https://abhayaagr.github.io/Sorting-Visualizer/
 
 ## 🔥 Features
